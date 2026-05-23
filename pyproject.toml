@@ -1,7 +1,18 @@
 [project]
 name = "assignment-2"
 version = "0.1.0"
-description = "Add your description here"
+description = "Statistical Learning HIT MSc - Home Assignment 2"
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "pandas",
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "seaborn",
+    "scikit-learn",
+    "statsmodels",
+    "jupyter",
+    "ipykernel",
+    "nbformat",
+]
